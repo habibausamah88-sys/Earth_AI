@@ -1,0 +1,22 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ── Data & models are too big for git (spec: no large raw data in git) ──
+data/
+models/*.keras
+models/manifest.json
+
+# ── Notebooks ──
+.ipynb_checkpoints/
+
+# ── OS / editor noise ──
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ── Streamlit ──
+.streamlit/secrets.toml
