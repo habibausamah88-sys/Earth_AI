@@ -1,0 +1,7 @@
+run_id,date,author,model,config_tag,lr,batch_size,optimizer,epochs,augment,seed,params,train_time_min,val_accuracy,val_macro_f1,test_accuracy,test_macro_f1,notes
+20261125-135718_model_a_reference,20261125-135718,Member2,model_a,reference,0.001,64,adam,50,1,42,158186,2.18,0.1663,0.0967,,,
+20261125-135935_model_b_reference,20261125-135935,Mariam,model_b,reference,0.001,64,adam,50,1,42,23851274,6.82,0.8869,0.8876,,,
+20261125-141729_model_c_smoke,20261125-141729,Mariam,model_c,smoke,0.0001,32,adam,2,1,42,23851274,0.36,0.8,0.7959,,,
+lr_0.0001_smoke,20261125-141815,Member4,model_a,smoke,0.0001,32,adam,2,1,42,158186,0.15,0.1,0.0182,,,learning-rate study lr=0.0001
+lr_0.001_smoke,20261125-141825,Member4,model_a,smoke,0.001,32,adam,2,1,42,158186,0.18,0.1889,0.063,,,learning-rate study lr=0.001
+lr_0.01_smoke,20261125-141837,Member4,model_a,smoke,0.01,32,adam,2,1,42,158186,0.15,0.1,0.0182,,,learning-rate study lr=0.01
